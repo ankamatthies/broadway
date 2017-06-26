@@ -15,6 +15,7 @@ h1 {
 
 .pages a {
   color: white;
+  font-size: 18px;
 }
 
 p {
@@ -23,6 +24,7 @@ p {
 
 .background {
   background-image: url("../images/the-flatiron-building.png");
+  background-repeat: no-repeat;
 }
 
 .process {
@@ -48,10 +50,10 @@ p {
 
 
 .siteFooter {
-  text-align: left;
   font-size: 11px;
   color: white;
   background-color: dimgrey;
+  text-align: left;
 }
 
 .siteFooter li {
@@ -62,4 +64,8 @@ p {
 .siteFooter li a {
   font-size: 18px;
   color: inherit;
+}
+
+.siteFooter ul {
+  padding: 0px;
 }
