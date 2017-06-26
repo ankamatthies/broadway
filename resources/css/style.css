@@ -6,10 +6,60 @@ html {
 h1 {
   font-size: 70px;
   font-weight: bold;
-  color: blue;
+  color: white;
 }
 
-.class {
-  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+.pages {
+  font-size: 18px;
+}
 
+.pages a {
+  color: white;
+}
+
+p {
+  font-size: 14px;
+}
+
+.background {
+  background-image: url("../images/the-flatiron-building.png");
+}
+
+.process {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.process p {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.processHead {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.ny {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+
+
+.siteFooter {
+  text-align: left;
+  font-size: 11px;
+  color: white;
+  background-color: dimgrey;
+}
+
+.siteFooter li {
+  list-style: none;
+  display: inline-block;
+}
+
+.siteFooter li a {
+  font-size: 18px;
+  color: inherit;
 }
